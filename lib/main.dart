@@ -90,14 +90,14 @@ class _MyHomePageState extends State<MyHomePage> {
         // in the middle of the parent.
         child: Text.rich(TextSpan(children:[
 
-          TextSpan(text: 'RichText helps to create\n',style: TextStyle(fontSize: 25,color: Colors.grey,height: -0.010),),
+          TextSpan(text: 'RichText helps to create\n',style: TextStyle(fontSize: 25,color: Colors.black45,height: -0.010),),
           TextSpan(text: 'Highlighted',style: TextStyle(fontSize: 50,color: Colors.red,fontWeight: FontWeight.bold,fontStyle: FontStyle.italic),),
-          TextSpan(text: ',\n',style: TextStyle(fontSize: 25,color: Colors.grey),),
+          TextSpan(text: ',\n',style: TextStyle(fontSize: 25,color: Colors.black45),),
           TextSpan(text: 'Clickable',style: TextStyle(fontSize: 30,color: Colors.blue,decoration: TextDecoration.underline,decorationColor: Colors.blue,height: 1),),
-          TextSpan(text: ',',style: TextStyle(fontSize: 25,color: Colors.grey),),
+          TextSpan(text: ',',style: TextStyle(fontSize: 25,color: Colors.black45),),
           TextSpan(text: ' OutlinedText',style: TextStyle(fontSize: 29,color: Colors.green,decorationColor: Colors.green,height: 1,),),
-          TextSpan(text: '.',style: TextStyle(fontSize: 25,color: Colors.grey),),
-          TextSpan(text: '\n     Say Hi to Rich Text \n',style: TextStyle(fontSize: 25,color: Colors.grey),),
+          TextSpan(text: '.',style: TextStyle(fontSize: 25,color: Colors.black45),),
+          TextSpan(text: '\n     Say Hi to Rich Text \n',style: TextStyle(fontSize: 25,color: Colors.black45,height: 1),),
 
 
 
