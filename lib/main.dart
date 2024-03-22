@@ -95,7 +95,28 @@ class _MyHomePageState extends State<MyHomePage> {
           TextSpan(text: ',\n',style: TextStyle(fontSize: 25,color: Colors.black45),),
           TextSpan(text: 'Clickable',style: TextStyle(fontSize: 30,color: Colors.blue,decoration: TextDecoration.underline,decorationColor: Colors.blue,height: 1),),
           TextSpan(text: ',',style: TextStyle(fontSize: 25,color: Colors.black45),),
-          TextSpan(text: ' OutlinedText',style: TextStyle(fontSize: 29,color: Colors.green,decorationColor: Colors.green,height: 1,),),
+          const TextSpan(
+            text: '   ',
+          ),
+          WidgetSpan(
+            child: Container(
+              height: 32,
+              width: 160,
+              decoration: BoxDecoration(
+                border: Border.all(color: Colors.green, width: 2.4),
+              ),
+              child: const Center(
+                child: Text(
+                  'Outlined Text',
+                  style: TextStyle(
+                    fontSize: 23,
+                    color: Colors.green,
+                  ),
+                ),
+              ),
+            ),
+          ),
+
           TextSpan(text: '.',style: TextStyle(fontSize: 25,color: Colors.black45),),
           TextSpan(text: '\n     Say Hi to Rich Text \n',style: TextStyle(fontSize: 25,color: Colors.black45,height: 1),),
 
