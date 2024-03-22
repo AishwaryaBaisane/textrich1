@@ -15,5 +15,4 @@ For help getting started with Flutter development, view the
 [online documentation](https://docs.flutter.dev/), which offers tutorials,
 samples, guidance on mobile development, and a full API reference.
 
-
-![Uploading Screenshot 2024-03-22 125101.png…]()
+<img src = "![Screenshot 2024-03-22 125101](https://github.com/AishwaryaBaisane/textrich1/assets/149373597/3550a5c5-09ec-4171-88fe-566e2ef3a50c)"
